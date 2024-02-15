@@ -1,5 +1,5 @@
 name: "Automatic Releases"
-author: "marvinpinto"
+author: "CANmobilities"
 description: "Automate the GitHub release process with assets, changelogs, pre-releases, and more"
 inputs:
   repo_token:
@@ -28,7 +28,7 @@ outputs:
   upload_url:
     description: "The URL for uploading additional assets to the release"
 runs:
-  using: "node12"
+  using: "node20"
   main: "dist/index.js"
 branding:
   icon: "git-merge"
